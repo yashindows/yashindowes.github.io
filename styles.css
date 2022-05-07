@@ -1,0 +1,409 @@
+@font-face {
+    font-family: 'Larsseit';
+    src: local('Larsseit Regular'), local('Larsseit-Regular'),
+        url('fonts/Larsseit.woff2') format('woff2'),
+        url('fonts/Larsseit.woff') format('woff'),
+        url('fonts/Larsseit.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Larsseit';
+    src: local('Larsseit Bold'), local('Larsseit-Bold'),
+        url('fonts/Larsseit-Bold.woff2') format('woff2'),
+        url('fonts/Larsseit-Bold.woff') format('woff'),
+        url('fonts/Larsseit-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Larsseit';
+    src: local('Larsseit Medium'), local('Larsseit-Medium'),
+        url('fonts/Larsseit-Medium.woff2') format('woff2'),
+        url('fonts/Larsseit-Medium.woff') format('woff'),
+        url('fonts/Larsseit-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+body{
+    background: #fff;
+    font-family: 'Larsseit'
+}
+.content{
+    background: url(img/imgbg.png) right 70px no-repeat, url(img/Rectangle\ 3.1.png) right 0 no-repeat, #F4F9E2;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.content-header{
+    display: flex;
+    padding-top: 38px;
+    justify-content: space-between;
+    padding-left: 179px;
+    padding-right: 131px;
+}
+.content-header-logo{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #62D0DF;
+}
+.content-header-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 233px;
+}
+.content-header-nav a{
+    color: #22356F;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    /* Active - 500px */
+}
+.content-header-contact-item{
+    padding: 20px 30px 19px 30px;
+    background: #62D0DF;
+    border-radius: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+.content-main{
+    padding-left: 179px;
+    margin-top: 187px;
+    padding-bottom: 75px;
+}
+.content-main-category{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.035em;
+    color: #62D0DF;
+    margin-bottom: 60px;
+}
+.content-main-text-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    color: #22356F;
+    margin-bottom: 60px;
+}
+.content-main-text{
+    width: 469px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    color: #22356F;
+    margin-bottom: 70px;
+}
+.content-main-buttons{
+    font-weight: 700;
+    font-size: 16px;
+}
+.btn1{
+    padding: 10px 30px 11px 30px;
+    background: #F9B640;
+    color: #fff;
+    margin-right: 38px;
+    letter-spacing: 0.1em;
+}
+.btn2{
+        color: #FAB63E;
+        letter-spacing: 0.1em;
+}
+
+.second{
+    background:#62D0DF url(img/christopher-campbell-40367.jpg) right no-repeat;
+    color: #fff;
+    padding: 151px 0 0 178px;
+    height: 604px;
+}
+.second-text-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 75px;
+    line-height: 27px;
+    letter-spacing: -0.006em;
+
+}
+.second-text{
+    display: inline-block;
+}
+.second-text-text{
+    font-size: 24px;
+    width: 555px;
+    line-height: 35px;
+    margin-bottom: 92px;
+}
+.third{
+    display: flex;
+    background: #fff;
+    padding-top: 150px;
+    margin-bottom: 1px;
+}
+.third-title{
+    display: inline-block;
+    margin-left: 106px;
+    padding-top: 6px;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+    margin-right: 225px;
+}
+.third-text{
+    display: inline-block;
+    width: 592px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    color: #22356F;
+}
+.main{
+    background: inherit;
+}
+.main-title{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+}
+.main-section{
+    height: 360px;
+    margin-bottom: 120px;
+}
+.main-section_item{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 360px;
+    width: 360px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+}
+.Weight-Lifting{
+    background: #FFE2DE;
+}
+.Running_Spinning{
+    background: #C4E769;
+}
+.Pumping_Iron{
+background: #62D0DF;
+}
+.Pumping__Iron{
+    background: #0052C1;
+}
+.strip{
+    width: 255px;
+    height: 72px;
+    box-shadow: inset 0px -1px 0px #FFFFFF;
+    background: transparent;
+}
+.name{
+    margin-top: 23px;
+    background: url(img/icons/Ellipse.svg) left no-repeat;
+    padding-left: 20px;
+}
+.main-section_item_sec{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 480px;
+    width: 480px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+}
+.Physical_Health{
+    background: #22356F;
+}
+.Mental_Health{
+    background: #0052C1;
+}
+.Nutrition{
+    background: url(img/joanna-kosinska-340748.jpg)
+}
+.Gymnastics{
+    background: #62D0DF;
+}
+.Crossfit{
+    background: #DEE1FF;
+}
+.Aerobics{
+    background: #8F00FF;
+}
+.main-section_second{
+    height: 960px;
+    margin-bottom: 22px;
+}
+.main-section_third{
+    height: 480px;
+    margin-bottom: 40px;
+}
+.main-section_third_item{
+    float: left;
+    height: 240px;
+    width: 480px;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+    color: #22356F;
+    padding: 55px 0 0 105px;
+}
+.main-section_third_item p{
+    width: 298px;
+    margin-top: 28px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: rgba(34, 53, 111, 0.5);
+}
+.addictional{
+    background: url(img/after_main.jpg) left no-repeat;
+    height: 800px;
+    padding-left: 589px;
+}
+.addictional_title{
+    padding-top: 103px;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+    margin-bottom: 225px;
+}
+.addictional_info{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    color: #22356F;
+    width: 676px;
+    margin-bottom: 152px;
+}
+.addictional_info span{
+    color: #62D0DF;
+}
+.addictional_link a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #FAB63E;
+}
+.contact{
+    background: url(img/neger.jpg) right no-repeat #22356F;
+    height: 800px;
+    color: #fff;
+    padding-left: 180px;
+    padding-top: 103px;
+}
+.contact_subtitle{
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    margin-bottom: 230px;
+}
+.contact_title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+    margin-bottom: 75px;
+}
+.contact_text{
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+    width: 579px;
+    margin-bottom: 75px;
+}
+.contact_link a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #62D0DF;
+}
+.footer{
+    background: url(img/footer.jpg) left no-repeat;
+    height: 380px;
+}
+.footer_text{
+    padding: 98px 0 0 638px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_text_first_info, .footer_text_second_info, .footer_text_third_info{
+    font-size: 14px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #22356F;
+    margin-bottom: 60px;
+    
+}
+.footer_text_first p, .footer_text_second p, .footer_text_third p{
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    width: 240px;
+    color: rgba(34, 53, 111, 0.5);
+}
+.copyright{
+    background: #62D0DF;
+    height: 80px;
+}
+.copyright span{
+    display: inline-block;
+    background: url(img/icons/©.svg) left no-repeat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    margin: 40px 0 0 194px;
+    padding-left: 15px;
+}
